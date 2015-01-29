@@ -11,6 +11,8 @@
 # Page options, layouts, aliases and proxies
 ###
 
+require 'slim'
+
 # Per-page layout changes:
 #
 # With no layout
@@ -57,6 +59,20 @@ set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
 set :build_dir, 'gh-pages/dev'
+
+# meter um ficheiro index.html em cada pasta para ter pretty urls
+activate :directory_indexes
+
+#condigurações do slim
+set :slim, {
+  pretty: true,
+  format: :html5,
+  shortcut: {
+    '@' => {attr: 'role'},
+    '#' => {attr: 'id'},
+    '.' => {attr: 'class'}
+  }
+}
 
 # Build-specific configuration
 configure :build do
