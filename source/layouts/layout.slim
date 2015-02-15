@@ -1,37 +1,86 @@
 doctype html
-html
+html lang="en" 
   head
-    meta[charset="utf-8"]
-    meta[content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"]
-    title
-      = current_page.data.title || "Jenial'15"
-    = stylesheet_link_tag "bootstrap.min", "custom"
-    = javascript_include_tag  "bootstrap.min", "jquery-2.1.3.min", "custom"
-  body.page_classes
-    nav.navbar.navbar-inverse.navbar-fixed-top
-      .container
-        .navbar-header
-          button.navbar-toggle.collapsed type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"
-            span.sr-only Toggle navigation
-            span.icon-bar
-            span.icon-bar
-            span.icon-bar
-          = link_to 'Bootstrap theme', '#', class: 'navbar-brand'
-        .navbar-collapse.collapse#navbar
-          ul.nav.navbar-nav
-            li.active = link_to 'Home', '#'
-            li = link_to 'About', '#about'
-            li = link_to 'Contact', '#contact'
-            li.dropdown
-              = link_to '#account', role: 'button', data: { toggle: 'dropdown' }, aria: {expanded: 'false'}
-                | Dropdown
-                span.caret
-              ul.dropdown-menu@menu
-                li = link_to 'Action', '#'
-                li = link_to 'Another Action', '#'
-                li = link_to 'Somthing else here', '#'
-                li.divider
-                li.dropdown-header Nav header
-                li = link_to 'Separated link', '#'
-                li = link_to 'One more separated link', '#'
+    /!
+      | Basic Page Needs
+      | \==================================================
+    meta charset="utf-8" /
+    meta content="IE=edge" http-equiv="X-UA-Compatible" /
+    title Jenial'15
+    /!
+      | Mobile Specific Metas
+      | \==================================================
+    meta content="width=device-width, initial-scale=1" name="viewport" /
+    /! Favicon
+    = favicon_tag 'favicon.png'
+    /!
+      | CSS
+      | \==================================================
+    /! Bootstrap css file
+    = stylesheet_link_tag "bootstrap.min"
+    /! Font awesome css file
+    = stylesheet_link_tag "font-awesome.min"
+    /! Superslide css file
+    = stylesheet_link_tag "superslides"
+    /! Slick slider css file
+    = stylesheet_link_tag "slick"
+    /! smooth animate css file
+    = stylesheet_link_tag "animate"
+    /! Elastic grid css file
+    = stylesheet_link_tag "elastic_grid"
+    /! Circle counter cdn css file
+    = stylesheet_link_tag "jquery.circliful"
+    /! Theme css file
+    = stylesheet_link_tag "themes/default-theme"
+    /! Main structure css file
+    = stylesheet_link_tag "style"
+    /! Google fonts
+    = stylesheet_link_tag "http://fonts.googleapis.com/css?family=Open+Sans"
+    = stylesheet_link_tag "http://fonts.googleapis.com/css?family=Varela"
+    = stylesheet_link_tag "http://fonts.googleapis.com/css?family=Montserrat"
+    /! HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+    /! WARNING: Respond.js doesn't work if you view the page via file://
+    /![if lt IE 9]
+      = javascript_include_tag "https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"
+      = javascript_include_tag "https://oss.maxcdn.com/respond/1.4.2/respond.min.js"
+  body
+    /! BEGAIN PRELOADER
+    #preloader
+      #status &nbsp;
+    /! END PRELOADER
+    /! SCROLL TOP BUTTON
+    a.scrollToTop href="#" 
+      i.fa.fa-angle-up
+    /! END SCROLL TOP BUTTON
+
+    = partial 'header'
+
     == yield
+
+    = partial 'footer'
+
+    /!
+      | Javascript Files
+      | \==================================================
+    /! initialize jQuery Library
+    = javascript_include_tag "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"
+    /! Google map
+    = javascript_include_tag "https://maps.googleapis.com/maps/api/js"
+    = javascript_include_tag "jquery.ui.map"
+    /! For smooth animatin
+    = javascript_include_tag "wow.min"
+    /! Bootstrap js
+    = javascript_include_tag "bootstrap.min"
+    /! superslides slider
+    = javascript_include_tag "jquery.superslides.min"
+    /! slick slider
+    = javascript_include_tag "slick.min"
+    /! for circle counter
+    = javascript_include_tag "jquery.circliful.min"
+    /! for portfolio filter gallery
+    = javascript_include_tag "modernizr.custom"
+    = javascript_include_tag "classie"
+    = javascript_include_tag "elastic_grid.min"
+    = javascript_include_tag "portfolio_slider"
+    /! Custom js
+    = javascript_include_tag "custom"
