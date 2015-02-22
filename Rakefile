@@ -9,6 +9,9 @@ desc "deploy build directory to github pages"
 task :deploy do
   puts "## Deploying branch to Github Pages "
   cd "gh-pages" do
+    system "git stash"
+    system "git checkout gh-pages"
+    system "git stash pop"
     system "git a -A"
     message = "Site updated at #{Time.now.utc}"
     puts "\n## Commiting: #{message}"
