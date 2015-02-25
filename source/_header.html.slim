@@ -13,10 +13,12 @@ header#header
             span.icon-bar
           /! LOGO
           /! TEXT BASED LOGO
-          a.navbar-brand href="#" 
-            | Single
-            span Pro
+          /!a.navbar-brand href="#" 
+          /!  | Single
+          /!  span Pro
           /! IMG BASED LOGO
+          a.navbar-brand href="#"
+            = image_tag 'logo_light.png', alt: 'logo'
           /! <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a
         #navbar.navbar-collapse.collapse
           ul#top-menu.nav.navbar-nav.navbar-right.main_nav
@@ -37,34 +39,14 @@ header#header
           /! FIRST SLIDE OVERLAY
           .slider_overlay
           /! FIRST SLIDE MAIN IMAGE
-          img alt="img" src="img/full-slider/full-slide7.jpg"
+          = image_tag 'full-slider/full-slide-jenial.png', alt: 'cover-jenial'
           /! FIRST SLIDE CAPTION
           .slider_caption
-            h2 Hi,We are Ultramodern Single pro
-            p we are a group of experienced designers and developers
-            a.slider_btn href="#"  Who We are
-        /! THE SECOND SLIDE
-        li
-          /! SECOND SLIDE OVERLAY
-          .slider_overlay
-          /! SECOND SLIDE MAIN IMAGE
-          img alt="img" src="img/full-slider/full-slide2.jpg"
-          /! SECOND SLIDE CAPTION
-          .slider_caption
-            h2 Hi,We are Ultramodern Single pro
-            p we are a group of experienced designers and developers
-            a.slider_btn href="#"  Who We are
-        /! THE THIRD SLIDE
-        li
-          /! THIRD SLIDE OVERLAY
-          .slider_overlay
-          /! THIRD SLIDE MAIN IMAGE
-          img alt="img" src="img/full-slider/full-slide1.jpg"
-          /! THIRD SLIDE CAPTION
-          .slider_caption
-            h2 we'll change your Idea of Design
-            p we are a group of experienced designers and developers
-            a.slider_btn href="#"  Who We are
+            h2 &nbsp;
+            h3 &nbsp;
+            p A 6.ª edição do JeniAL, o encontro nacional de Júnior Empresas e Iniciativas, vai decorrer pela primeira vez na cidade de Braga, entre 10 e 12 de Abril de 2015. Com o tema “Aprender Fazendo”, o evento vai juntar cerca de 150 júnior empresários de diferentes pontos do país.
+            p Vão ser três dias de aprendizagem e partilha constante de conhecimentos e experiências.
+            p Fica, agora, a saber tudo o que temos preparado para ti.
       /! BEGIN SLIDER NAVIGATION
       nav.slides-navigation
         /! PREV IN THE SLIDE
