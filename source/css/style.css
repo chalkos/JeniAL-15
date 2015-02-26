@@ -389,6 +389,12 @@ img{
   width: 100%;
   padding: 80px 0px;
 }
+#concurso {
+  display: inline;
+  float: left;
+  width: 100%;
+  padding: 80px 0px;
+}
 .about_area{
 	float: left;
 	display: inline;
