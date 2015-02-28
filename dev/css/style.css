@@ -624,7 +624,7 @@ div[data-dimension] {
   width: 100%;
 }
 .counter_section {
-  background-image: url("img/works_counterbg.jpg");
+  background-image: url("../img/works_counterbg.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: inline;
@@ -1058,7 +1058,7 @@ div[data-dimension] {
   width: 100%;
 }
 .testi_content:before {
-  background-image: url("img/testimonial-arrow.png");
+  background-image: url("../img/testimonial-arrow.png");
   background-position: center center;
   background-repeat: no-repeat;
   content: "";
@@ -1289,15 +1289,37 @@ textarea .form-control {
 }
 
 #contactFeature{
-	background-image: url("img/contact-feature-bg.jpg");
-	background-repeat: no-repeat;
-	background-size: 100% 100%;	
-	position: relative;
-	float: left;
-	display: block;
-	width: 100%;
-	padding: 50px 0px;
+  background-image: url("../img/contact-feature-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; 
+  position: relative;
+  float: left;
+  display: block;
+  width: 100%;
+  padding: 50px 0px;
 }
+
+#contactos{
+  background: none repeat scroll 0 0 #444;
+  position: relative;
+  float: left;
+  display: block;
+  width: 100%;
+  padding: 50px 0px;
+}
+
+.email_link{
+  font-weight: bold;
+  color: #ffc400;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.email_link:hover, .email_link:focus{
+  text-decoration: underline;
+  color: #ffc400;
+}
+
 
 #subscribe{
 	float: left;
