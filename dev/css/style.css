@@ -74,6 +74,10 @@ img{
  border:none;
 }
 
+.center-text {
+  text-align: center;
+}
+
 /* Preloader */
 #preloader {
   position: fixed;
@@ -629,6 +633,13 @@ div[data-dimension] {
   padding: 0 0 80px;
   width: 100%;
 }
+#comochegar {
+  background-color: #4f535e;
+  display: inline;
+  float: left;
+  padding: 0;
+  width: 100%;
+}
 .counter_section {
   background-image: url("../img/works_counterbg.jpg");
   background-repeat: no-repeat;
@@ -639,6 +650,20 @@ div[data-dimension] {
   padding: 80px 0;
   position: relative;
   width: 100%;
+}
+.counter_section2 {
+  display: inline;
+  float: left;
+  min-height: 350px;
+  padding: 30px 0;
+  position: relative;
+  background: none repeat scroll 0 0 #4f535e;
+  color: #fff;
+  display: inline;
+  width: 100%;
+}
+.counter_section2 h2{
+  color: #fff;
 }
 .counter_area {
   position: relative;
