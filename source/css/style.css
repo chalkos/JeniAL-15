@@ -840,22 +840,22 @@ div[data-dimension] {
   border-bottom: 1px solid #eee;
 }
 #programa {
-  background: none repeat scroll 0 0 #f8f8f8;
+  background: none repeat scroll 0 0 #e2e2e2;
   display: inline;
   float: left;
   padding: 80px 0;
   width: 100%;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 #inscricoes {
-  background: none repeat scroll 0 0 #f8f8f8;
+  background: none repeat scroll 0 0 #e2e2e2;
   display: inline;
   float: left;
   padding: 80px 0;
   width: 100%;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 .pricing_area {
   display: inline;
@@ -868,7 +868,7 @@ div[data-dimension] {
   float: left;
   text-align: center;
   width: 100%;
-  border: 1px solid #ccc;
+  border: 1px solid #bbb;
   background: #fff;
   /*padding: 5px 0px;*/
   padding-bottom: 5px;
@@ -1575,7 +1575,7 @@ textarea .form-control {
 	.single_service > .service_title:after {left: 38%;}
 	.wagwep-container ul#portfolio-filter {padding: 0 3%;}	
   .slider_caption {padding: 0 5%;}
-  
+
 }
 
 @media(max-width:360px ){
