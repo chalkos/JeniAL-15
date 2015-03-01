@@ -1574,7 +1574,8 @@ textarea .form-control {
 	.testi_content:before {left: 30%;}	
 	.single_service > .service_title:after {left: 38%;}
 	.wagwep-container ul#portfolio-filter {padding: 0 3%;}	
- 
+  .slider_caption {padding: 0 5%;}
+  
 }
 
 @media(max-width:360px ){
@@ -1596,6 +1597,7 @@ textarea .form-control {
 	.heading h2 { font-size: 25px;line-height: 30px;}
 	.single_service > .service_title:after {left: 32%;}
 	.slides-navigation {display: none;}
+  .slider_caption {padding: 0 5%;}
 	
 }
 
@@ -1605,5 +1607,6 @@ textarea .form-control {
 	.blog_slider .slick-prev {left: 70.5%;}
 	.subscr_btn {font-size: 11px;}
 	.slider_caption {margin-top: 34%;}  
+  .slider_caption {padding: 0 5%;}
 	
 }
