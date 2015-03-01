@@ -21,11 +21,11 @@ Sábado:
   - { hora: '', evento: '#3 Startup Braga' }
   - { hora: '', evento: '#4 Startup Braga' }
   - { hora: '16:00', evento: Coffee-break }
-  - { hora: '16:30', evento:  }
-  - { hora: '', evento: Meetup Recursos Humanos }
-  - { hora: '', evento: Meetup Comunicação e Marketing }
-  - { hora: '', evento: Meetup Projetos de Engenharia }
-  - { hora: '', evento: Meetup Consultoria }
+  - { hora: '16:30', evento: 'Meetups:' }
+  - { hora: '', evento: Recursos Humanos }
+  - { hora: '', evento: Comunicação e Marketing }
+  - { hora: '', evento: Projetos de Engenharia }
+  - { hora: '', evento: Consultoria }
   - { hora: '18:00', evento: Tempo livre }
   - { hora: '20:00', evento: Jantar de Gala }
   - { hora: '23:00', evento: Festa Insólita }
