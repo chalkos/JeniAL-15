@@ -387,12 +387,6 @@ img{
   width: 100%;
   padding: 80px 0px;
 }
-#inscricoes {
-  display: inline;
-  float: left;
-  width: 100%;
-  padding: 80px 0px;
-}
 #braga {
   display: inline;
   float: left;
@@ -846,6 +840,15 @@ div[data-dimension] {
   border-bottom: 1px solid #eee;
 }
 #programa {
+  background: none repeat scroll 0 0 #f8f8f8;
+  display: inline;
+  float: left;
+  padding: 80px 0;
+  width: 100%;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+#inscricoes {
   background: none repeat scroll 0 0 #f8f8f8;
   display: inline;
   float: left;
