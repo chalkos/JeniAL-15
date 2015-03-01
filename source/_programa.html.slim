@@ -1,0 +1,22 @@
+/! =========== BEGAIN PRICING SECTION ================
+section#programa
+  .container
+    .row.col-lg-12.col-md-12
+      /! START ABOUT HEADING
+      .heading
+        h2.wow.fadeInLeftBig Programa
+        p Algum texto aqui ficava bem..
+    .row.col-lg-12.col-md-12
+      .pricing_area
+        .row
+          - data.programa.each do |dia,eventos|
+            .col-lg-4.col-md-4.col-sm-12.col-xs-12
+              .single_price.wow.fadeInUp
+                h3.price = dia
+                ul.price_features
+                  - eventos.each do |e|
+                    li style="#{'padding-left:1.5em' if e.hora.empty?}"
+                      - unless e.hora.empty?
+                        strong = e.hora + ' | '
+                      = e.evento
+/! =========== END PRICING SECTION ================

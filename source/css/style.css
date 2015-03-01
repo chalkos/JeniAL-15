@@ -387,6 +387,12 @@ img{
   width: 100%;
   padding: 80px 0px;
 }
+#inscricoes {
+  display: inline;
+  float: left;
+  width: 100%;
+  padding: 80px 0px;
+}
 #braga {
   display: inline;
   float: left;
@@ -839,6 +845,15 @@ div[data-dimension] {
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
 }
+#programa {
+  background: none repeat scroll 0 0 #f8f8f8;
+  display: inline;
+  float: left;
+  padding: 80px 0;
+  width: 100%;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
 .pricing_area {
   display: inline;
   float: left;
@@ -852,11 +867,12 @@ div[data-dimension] {
   width: 100%;
   border: 1px solid #ccc;
   background: #fff;
-  padding: 5px 0px;
+  /*padding: 5px 0px;*/
+  padding-bottom: 5px;
 }
 .single_price>h3{
-	font-size: 24px;
-	font-weight: 700;
+	font-size: 30px;
+	font-weight: 900;
 	line-height: 100px;
 	margin: 0px;
 	text-transform: uppercase;
@@ -875,7 +891,8 @@ div[data-dimension] {
   font-size: 15px;    
 }
 .price_features{
-	padding:10px 25px;
+	padding:10px 50px;
+  text-align: left;
 }
 .price_features li {
   border-bottom: 1px solid #f2f2f2;
@@ -883,7 +900,7 @@ div[data-dimension] {
   font-size: 15px;
   line-height: 18px;
   padding: 10px 0;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 .price_btn {
   color: #fff !important;
@@ -1474,7 +1491,7 @@ textarea .form-control {
   .single_iteam img {display: inline-block;}
   .single_service .service_title {font-size: 18px;}
   .single_service > .service_title:after {left: 33%;}
-  .single_price > h3 {font-size: 20px;line-height: 80px;}
+  .single_price > h3 {line-height: 80px;}
   .single_price .price > h4 {font-size: 50px;line-height: 50px;}
   .price_features li {font-size: 13px;line-height: 15px;}
   .price_btn {font-size: 13px;padding: 10px 15px;}
@@ -1504,7 +1521,7 @@ textarea .form-control {
 	.portfolio_area {padding: 60px 15px 0;}
 	.wagwep-container ul#portfolio-filter a {margin: 0 5px 5px 0;padding: 6px 10px;font-size: 12px;}
 	.single_price {margin-bottom: 30px;}	
-	.single_price > h3 {font-size: 24px;line-height: 100px;}
+	.single_price > h3 {line-height: 100px;}
 	.single_price .price > h4 {font-size: 60px;line-height: 60px;}
 	.price_features li {font-size: 15px;line-height: 18px;}
 	.price_btn {font-size: 15px;padding: 10px 20px;}
