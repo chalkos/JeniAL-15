@@ -1,0 +1,62 @@
+/! =========== BEGIN HEADER SECTION ================
+header#header
+  /! BEGIN MENU
+  .menu_area
+    nav.navbar.navbar-default.navbar-fixed-top role="navigation" 
+      .container
+        .navbar-header
+          /! FOR MOBILE VIEW COLLAPSED BUTTON
+          button.navbar-toggle.collapsed aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" type="button" 
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          /! LOGO
+          /! TEXT BASED LOGO
+          /!a.navbar-brand href="#" 
+          /!  | Single
+          /!  span Pro
+          /! IMG BASED LOGO
+          a.navbar-brand href="#"
+            = image_tag 'logo_light.png', alt: 'logo'
+          /! <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a
+        #navbar.navbar-collapse.collapse
+          ul#top-menu.nav.navbar-nav.navbar-right.main_nav
+            li.active
+              a href="#"  Home
+            - data.paginas.each do |k,v|
+              li
+                a href="##{k}"  = v
+        /! /.nav-collapse
+  /! END MENU
+  /! BEGIN SLIDER AREA
+  .slider_area
+    /! BEGIN SLIDER
+    #slides
+      ul.slides-container
+        /! THE FIRST SLIDE
+        li
+          /! FIRST SLIDE OVERLAY
+          .slider_overlay
+          /! FIRST SLIDE MAIN IMAGE
+          = image_tag 'full-slider/full-slide-jenial.png', alt: 'cover-jenial'
+          /! FIRST SLIDE CAPTION
+          .slider_caption
+            p A 6.ª edição do JeniAL, o encontro nacional de Júnior Empresas e Iniciativas, vai decorrer pela primeira vez na cidade de Braga, entre 10 e 12 de Abril de 2015. Com o tema “Aprender Fazendo”, o evento vai juntar cerca de 150 júnior empresários de diferentes pontos do país.
+            p Vão ser três dias de aprendizagem e partilha constante de conhecimentos e experiências.
+            p Fica, agora, a saber tudo o que temos preparado para ti.
+      /! BEGIN SLIDER NAVIGATION
+      nav.slides-navigation
+        /! PREV IN THE SLIDE
+        a.prev href="/item1" 
+          span.icon-wrap
+        h3
+          strong Prev
+        /! NEXT IN THE SLIDE
+        a.next href="/item3" 
+          span.icon-wrap
+        h3
+          strong Next
+    /! END SLIDER
+  /! END SLIDER AREA
+/! =========== End HEADER SECTION ================

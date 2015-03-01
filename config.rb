@@ -11,6 +11,9 @@
 # Page options, layouts, aliases and proxies
 ###
 
+require 'slim'
+Slim::Engine.disable_option_validator!
+
 # Per-page layout changes:
 #
 # With no layout
@@ -50,13 +53,30 @@
 activate :relative_assets
 set :relative_links, true
 
-set :css_dir, 'stylesheets'
+set :css_dir, 'css'
 
-set :js_dir, 'javascripts'
+set :js_dir, 'js'
 
-set :images_dir, 'images'
+set :images_dir, 'img'
+
+set :fonts_dir, 'fonts'
 
 set :build_dir, 'gh-pages/dev'
+
+
+# meter um ficheiro index.html em cada pasta para ter pretty urls
+activate :directory_indexes
+
+#condigurações do slim
+set :slim, {
+  pretty: true,
+  format: :html5,
+  shortcut: {
+    '@' => {attr: 'role'},
+    '#' => {attr: 'id'},
+    '.' => {attr: 'class'}
+  }
+}
 
 # Build-specific configuration
 configure :build do
@@ -74,4 +94,8 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+
+  coiso = 'yes!!'
+
+  ignore "/index.original.html"
 end

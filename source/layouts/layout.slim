@@ -1,0 +1,86 @@
+doctype html
+html lang="en" 
+  head
+    /!
+      | Basic Page Needs
+      | \==================================================
+    meta charset="utf-8" /
+    meta content="IE=edge" http-equiv="X-UA-Compatible" /
+    title Jenial'15
+    /!
+      | Mobile Specific Metas
+      | \==================================================
+    meta content="width=device-width, initial-scale=1" name="viewport" /
+    /! Favicon
+    = favicon_tag 'favicon.png'
+    /!
+      | CSS
+      | \==================================================
+    /! Bootstrap css file
+    = stylesheet_link_tag "bootstrap.min"
+    /! Font awesome css file
+    = stylesheet_link_tag "font-awesome.min"
+    /! Superslide css file
+    = stylesheet_link_tag "superslides"
+    /! Slick slider css file
+    = stylesheet_link_tag "slick"
+    /! smooth animate css file
+    = stylesheet_link_tag "animate"
+    /! Elastic grid css file
+    = stylesheet_link_tag "elastic_grid"
+    /! Circle counter cdn css file
+    = stylesheet_link_tag "jquery.circliful"
+    /! Theme css file
+    = stylesheet_link_tag "themes/yellow-theme"
+    /! Main structure css file
+    = stylesheet_link_tag "style"
+    /! Google fonts
+    = stylesheet_link_tag "http://fonts.googleapis.com/css?family=Open+Sans"
+    = stylesheet_link_tag "http://fonts.googleapis.com/css?family=Varela"
+    = stylesheet_link_tag "http://fonts.googleapis.com/css?family=Montserrat"
+    /! HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+    /! WARNING: Respond.js doesn't work if you view the page via file://
+    /![if lt IE 9]
+      = javascript_include_tag "https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"
+      = javascript_include_tag "https://oss.maxcdn.com/respond/1.4.2/respond.min.js"
+  body
+    /! BEGAIN PRELOADER
+    #preloader
+      #status &nbsp;
+    /! END PRELOADER
+    /! SCROLL TOP BUTTON
+    a.scrollToTop href="#" 
+      i.fa.fa-angle-up
+    /! END SCROLL TOP BUTTON
+
+    = partial 'header'
+
+    == yield
+
+    = partial 'footer'
+
+    /!
+      | Javascript Files
+      | \==================================================
+    /! initialize jQuery Library
+    = javascript_include_tag "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"
+    /! Google map
+    = javascript_include_tag "https://maps.googleapis.com/maps/api/js"
+    = javascript_include_tag "jquery.ui.map"
+    /! For smooth animatin
+    = javascript_include_tag "wow.min"
+    /! Bootstrap js
+    = javascript_include_tag "bootstrap.min"
+    /! superslides slider
+    = javascript_include_tag "jquery.superslides.min"
+    /! slick slider
+    = javascript_include_tag "slick.min"
+    /! for circle counter
+    = javascript_include_tag "jquery.circliful.min"
+    /! for portfolio filter gallery
+    = javascript_include_tag "modernizr.custom"
+    = javascript_include_tag "classie"
+    = javascript_include_tag "elastic_grid.min"
+    = javascript_include_tag "portfolio_slider"
+    /! Custom js
+    = javascript_include_tag "custom"
