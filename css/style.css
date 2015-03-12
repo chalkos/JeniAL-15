@@ -632,7 +632,7 @@ div[data-dimension] {
   content: "";
   height: 3px;
   /*left: 40%;*/
-  left: 33.3333%;
+  left: 25%;
   position: absolute;
   width: 100px;
 }
@@ -1511,7 +1511,7 @@ textarea .form-control {
   .clients_slider .slick-next {right: 45%;}
   .subscr_btn {font-size: 15px;}
   .single_contact_feaured {margin-bottom: 30px;}
-  
+  .single_service > .service_title:after {left: 0%;}
 }
 
 @media(max-width:767px ){
