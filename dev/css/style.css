@@ -78,6 +78,13 @@ img{
   text-align: center;
 }
 
+.sponsor {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+}
+
 .bold-text {
   font-weight: bold;
   font-size: 1.2em;
@@ -575,6 +582,12 @@ div[data-dimension] {
   width: 100%;
 }
 #inscricoes{
+  display: inline;
+  float: left;
+  padding: 80px 0 70px;
+  width: 100%;
+}
+#patrocinios{
   display: inline;
   float: left;
   padding: 80px 0 70px;
