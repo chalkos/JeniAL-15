@@ -1,0 +1,38 @@
+- { name: Primeiro
+  , title: Founder
+  , image: demo.jpg
+  , facebook: '#'
+  , twitter: '#'
+  , google: '#'
+  , linkedin: '#'
+  , desc: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature"
+  }
+- { name: Segundo
+  , title: Founder
+  , image: demo.jpg
+  , google: '#'
+  , linkedin: '#'
+  , desc: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature"
+  }
+- { name: Terceiro
+  , title: Founder
+  , image: demo.jpg
+  , twitter: '#'
+  , desc: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature"
+  }
+- { name: Quarto
+  , title: Founder
+  , image: demo.jpg
+  , facebook: '#'
+  , desc: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature"
+  }
+- { name: Quinto
+  , title: Founder
+  , image: demo.jpg
+  , desc: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature"
+  }
+- { name: Sexto
+  , title: Founder
+  , image: demo.jpg
+  , desc: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature"
+  }

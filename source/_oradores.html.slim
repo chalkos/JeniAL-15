@@ -1,0 +1,34 @@
+/! =========== BEGAIN TEAM SECTION ================
+section#oradores
+  .container
+    .row
+      .col-lg-12.col-md-12
+        /! BEGAIN ABOUT HEADING
+        .heading
+          h2.wow.fadeInLeftBig Oradores
+        .team_area
+          /! BEGAIN TEAM SLIDER
+          .team_slider
+            /! BEGAIN SINGLE TEAM SLIDE#1
+            - data.oradores.each do |orador|
+              .col-lg-3.col-md-3.col-sm-4
+                .single_team.wow.fadeInUp
+                  .team_img
+                    = image_tag "oradores/#{orador[:image]}"
+                  h5 = orador[:name]
+                  span = orador[:title]
+                  p = orador[:desc]
+                  .team_social
+                    - if orador.key?('facebook')
+                      a href="#{orador[:facebook]}" 
+                        i.fa.fa-facebook
+                    - if orador.key?('twitter')
+                      a href="#{orador[:twitter]}" 
+                        i.fa.fa-twitter
+                    - if orador.key?('google')
+                      a href="#{orador[:google]}" 
+                        i.fa.fa-google-plus
+                    - if orador.key?('linkedin')
+                      a href="#{orador[:linkedin]}" 
+                        i.fa.fa-linkedin
+/! =========== END TEAM SECTION ================
