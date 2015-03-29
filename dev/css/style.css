@@ -779,10 +779,16 @@ div[data-dimension] {
 /*--------------------*/
 
 #team{
-	float: left;
-	display: inline;
-	width: 100%;
-	padding:80px 0px; 
+  float: left;
+  display: inline;
+  width: 100%;
+  padding:80px 0px; 
+}
+#oradores{
+  float: left;
+  display: inline;
+  width: 100%;
+  padding:80px 0px; 
 }
 .team_area{
 	float: left;
@@ -840,6 +846,7 @@ div[data-dimension] {
 	display: inline;
 	width: 100%;
 	margin-top: 10px;
+  min-height: 35px;
 }
 .team_social a {
   color: #fff;
@@ -1489,6 +1496,7 @@ textarea .form-control {
 
 
 @media(max-width:1199px ){
+  .navbar-brand img {max-width: 80px;}
   .slider_caption > h2 {width: 100%;}
   .blog_slider .slick-prev {left: 91%;}
   #map_canvas{height: 404px;}
@@ -1505,6 +1513,7 @@ textarea .form-control {
 @media(max-width:991px ){
   .navbar-default .navbar-nav > li > a {font-size: 13px;padding: 15px 6px;}
   .navbar-brand {font-size: 28px;}
+  .navbar-brand img {max-width: 85px;}
   #slides{height: 600px !important;}
   .slider_caption > h2 {font-size: 48px;line-height: 48px;}
   .slider_caption > p {font-size: 18px;}
