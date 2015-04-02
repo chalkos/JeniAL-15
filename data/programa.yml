@@ -49,8 +49,11 @@ Sábado:
       partial: meetups
   - evento: Espaço Expoente
   - hora: '18:00'
+    evento: Apresentação das candidaturas aos JeniAL Awards
+  - evento: Espaço Expoente
+  - hora: '19:00'
     evento: Tempo livre
-  - hora: '20:00'
+  - hora: '20:30'
     evento: Jantar de Gala
   - hora: '23:00'
     evento: Festa Insólita
