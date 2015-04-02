@@ -46,11 +46,12 @@ Sábado:
   - hora: '16:00'
     evento: Coffee-break
   - hora: '16:30'
-    evento: 'Meetups:'
-  - evento: Recursos Humanos
-  - evento: Comunicação e Marketing
-  - evento: Projetos de Engenharia
-  - evento: Consultoria
+    evento: 'Meetups'
+    modal:
+      name: Meetups
+      title: Meetups
+      partial: meetups
+  - evento: no Espaço Expoente
   - hora: '18:00'
     evento: Tempo livre
   - hora: '20:00'
