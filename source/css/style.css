@@ -931,6 +931,9 @@ div[data-dimension] {
   padding: 10px 0;
   /*text-transform: uppercase;*/
 }
+.price_features li a {
+  color: #23527c;
+}
 .price_btn {
   color: #fff !important;
   display: inline-block;
@@ -967,10 +970,10 @@ div[data-dimension] {
 /*--------------------*/
 
 #blog{
-	float: left;
-	display: inline;
-	width: 100%;
-	padding: 80px 0px;
+  float: left;
+  display: inline;
+  width: 100%;
+  padding: 80px 0px;
 }
 .blog_content {
   display: inline;
