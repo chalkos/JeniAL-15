@@ -1,23 +1,23 @@
 Sexta-feira:
   - hora: '14:00'
     evento: Check-in no Hotel
-    modal:
-      name: checkin
-      title: Check-in no Hotel
   - evento: Para quem chega mais cedo temos um percurso turístico preparado para mostrar a cidade.
   - hora: '17:00'
     evento: Welcome Coffee
-    modal:
-      name: coffee
-      title: Welcome Coffee
   - evento: Espaço para café e conversa para os participantes e convidados
   - hora: '17:30'
     evento: Sessão de Abertura
+    modal:
+      name: SessaoAbertura
+      title: Sessão de Abertura
+      partial: sessao-de-abertura
   - evento: Cerimónia de boas-vindas a todos os presentes
   - hora: '20:00'
     evento: Jantar
+  - evento: no Museu D. Diogo de Sousa
   - hora: '22:00'
-    evento: Apresentação das candidaturas aos prémios JeniAL
+    evento: Apresentação das candidaturas aos JeniAL Awards
+  - evento: no Museu D. Diogo de Sousa
   - hora: '23:00'
     evento: Diversão Noturna
 Sábado:
