@@ -23,23 +23,7 @@ Sexta-feira:
 Sábado:
   - evento: Pequeno-almoço no hotel
   - hora: '09:00'
-    evento: Palestra Geral
-    modal:
-      name: PalestraGeral
-      title: Palestra Geral
-      partial: palestra-geral
-  - evento: Museu D. Diogo de Sousa
-  - hora: '10:00'
-    evento: Palestra Geral
-    modal:
-      name: PalestraGeral
-      title: Palestra Geral
-      partial: palestra-geral
-  - evento: Museu D. Diogo de Sousa
-  - hora: '11:00'
-    evento: Coffee-break
-  - hora: '11:30'
-    evento: Palestra Geral
+    evento: Palestras Gerais
     modal:
       name: PalestraGeral
       title: Palestra Geral
