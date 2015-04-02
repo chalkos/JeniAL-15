@@ -14,35 +14,35 @@ Sexta-feira:
   - evento: Cerimónia de boas-vindas a todos os presentes
   - hora: '20:00'
     evento: Jantar
-  - evento: no Museu D. Diogo de Sousa
+  - evento: Museu D. Diogo de Sousa
   - hora: '22:00'
     evento: Apresentação das candidaturas aos JeniAL Awards
-  - evento: no Museu D. Diogo de Sousa
+  - evento: Museu D. Diogo de Sousa
   - hora: '23:00'
     evento: Diversão Noturna
 Sábado:
   - evento: Pequeno-almoço no hotel
   - hora: '09:00'
     evento: Palestra Geral
-  - evento: no Museu D. Diogo de Sousa
+  - evento: Museu D. Diogo de Sousa
   - hora: '10:00'
     evento: Palestra Geral
-  - evento: no Museu D. Diogo de Sousa
+  - evento: Museu D. Diogo de Sousa
   - hora: '11:00'
     evento: Coffee-break
   - hora: '11:30'
     evento: Palestra Geral
-  - evento: no Museu D. Diogo de Sousa
+  - evento: Museu D. Diogo de Sousa
   - hora: '12:30'
     evento: Almoço
-  - evento: no Espaço Expoente
+  - evento: Espaço Expoente
   - hora: '14:30'
     evento: 'Workshops'
     modal:
       name: Workshops
       title: Workshops
       partial: workshops
-  - evento: no Espaço Expoente
+  - evento: Espaço Expoente
   - hora: '16:00'
     evento: Coffee-break
   - hora: '16:30'
@@ -51,7 +51,7 @@ Sábado:
       name: Meetups
       title: Meetups
       partial: meetups
-  - evento: no Espaço Expoente
+  - evento: Espaço Expoente
   - hora: '18:00'
     evento: Tempo livre
   - hora: '20:00'
@@ -62,7 +62,7 @@ Domingo:
   - evento: Pequeno-almoço no hotel
   - hora: '10:30'
     evento: Case Studies
-  - evento: no Espaço Expoente
+  - evento: Espaço Expoente
   - evento: Uma série de casos práticos serão apresentados para resolução em grupos.
   - hora: '12:30'
     evento: Almoço
@@ -73,7 +73,7 @@ Domingo:
       title: Sessão de Encerramento
       partial: encerramento
   - evento: com entrega dos JeniAL Awards
-  - evento: no Espaço Expoente
+  - evento: Espaço Expoente
   - hora: '15:30'
     evento: Despedida
   - evento: Quem quiser aproveitar por mais um bocado a cidade de Braga temos visitas guiadas e alguns museus para visitar.
