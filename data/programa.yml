@@ -23,21 +23,26 @@ Sexta-feira:
 Sábado:
   - evento: Pequeno-almoço no hotel
   - hora: '09:00'
-    evento: Palestra Geral 
+    evento: Palestra Geral
+  - evento: no Museu D. Diogo de Sousa
   - hora: '10:00'
     evento: Palestra Geral
+  - evento: no Museu D. Diogo de Sousa
   - hora: '11:00'
     evento: Coffee-break
   - hora: '11:30'
     evento: Palestra Geral
+  - evento: no Museu D. Diogo de Sousa
   - hora: '12:30'
     evento: Almoço
+  - evento: no Espaço Expoente
   - hora: '14:30'
-    evento: 'Workshops:'
-  - evento: '#1 Júnior Empresa<br>(Vencedor do Concurso)'
-  - evento: '#2 Júnior Empresa<br>(Vencedor do Concurso)'
-  - evento: '#3 Startup Braga'
-  - evento: '#4 Startup Braga'
+    evento: 'Workshops'
+    modal:
+      name: Workshops
+      title: Workshops
+      partial: workshops
+  - evento: no Espaço Expoente
   - hora: '16:00'
     evento: Coffee-break
   - hora: '16:30'
