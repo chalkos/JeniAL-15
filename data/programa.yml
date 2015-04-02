@@ -62,11 +62,18 @@ Domingo:
   - evento: Pequeno-almoço no hotel
   - hora: '10:30'
     evento: Case Studies
+  - evento: no Espaço Expoente
   - evento: Uma série de casos práticos serão apresentados para resolução em grupos.
   - hora: '12:30'
     evento: Almoço
   - hora: '14:00'
-    evento: Sessão de Encerramento com entrega dos prémios jeniAL
+    evento: Sessão de Encerramento
+    modal:
+      name: Encerramento
+      title: Sessão de Encerramento
+      partial: encerramento
+  - evento: com entrega dos JeniAL Awards
+  - evento: no Espaço Expoente
   - hora: '15:30'
     evento: Despedida
   - evento: Quem quiser aproveitar por mais um bocado a cidade de Braga temos visitas guiadas e alguns museus para visitar.

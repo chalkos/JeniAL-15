@@ -22,7 +22,7 @@ section#programa
                       - unless e.hora.nil?
                         strong = e.hora + ' | '
                       - unless e.modal.nil?
-                        a href="#" data-toggle="modal" data-target="#modal#{e.modal.name}"
+                        a href="#" data-toggle="modal" data-target="#modal#{e.modal.name}" style="text-decoration:underline"
                           = e.evento
                       - else
                         = e.evento
