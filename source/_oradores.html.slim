@@ -17,9 +17,7 @@ section#oradores
                     = image_tag "oradores/#{orador[:image]}"
                   h5 = orador[:name]
                   span = orador[:title]
-                  - unless orador[:desc].nil?
-                    - orador[:desc].each do |p|
-                      p = p
+                  p = orador[:desc]
                   .team_social
                     - if orador.key?('linkedin')
                       a href="#{orador[:linkedin]}" 
