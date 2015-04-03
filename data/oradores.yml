@@ -1,38 +1,38 @@
-- { name: Primeiro
-  , title: Founder
-  , image: demo.jpg
-  , facebook: '#'
-  , twitter: '#'
-  , google: '#'
-  , linkedin: '#'
-  , desc: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature"
-  }
-- { name: Segundo
-  , title: Founder
-  , image: demo.jpg
-  , google: '#'
-  , linkedin: '#'
-  , desc: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature"
-  }
-- { name: Terceiro
-  , title: Founder
-  , image: demo.jpg
-  , twitter: '#'
-  , desc: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature"
-  }
-- { name: Quarto
-  , title: Founder
-  , image: demo.jpg
-  , facebook: '#'
-  , desc: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature"
-  }
-- { name: Quinto
-  , title: Founder
-  , image: demo.jpg
-  , desc: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature"
-  }
-- { name: Sexto
-  , title: Founder
-  , image: demo.jpg
-  , desc: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature"
-  }
+- name: Maria Cunha
+  image: 
+  desc:
+    - CEO nas Josefinas Portugal
+    - "Formada em Marketing pela Universidade Católica, Maria Cunha é, ainda, responsável pela Bloom Idea."
+  linkedin: "http://pt.linkedin.com/in/mariacunhabloom"
+- name: Jorge Ribeiro
+  image: 
+  desc:
+    - Vencedor do Prémio Europeu Sousa Franco 2014
+    - "Formado em Direito pela Universidade do Minho, obteve ainda o curso avançado em Direito da União Europeia no King’s College London."
+  linkedin: "http://pt.linkedin.com/pub/jorge-miguel-ribeiro/58/492/669/en"
+- name: Tiago Sequeira
+  image: 
+  desc:
+    - Diretor da Startup Braga
+    - "Empreendedor que trabalha para impulsionar o ecossistema português com programas de inovação para empresas e startups. A Startup Braga e o Factory Braga são alguns dos seus projetos."
+  linkedin: "https://pt.linkedin.com/in/tgs1982"
+- name: Pedro Mendes
+  image: 
+  desc:
+    - "Com formação na área da computação, Pedro Mendes é Engenheiro de Software na Primavera Business Software Solutions."
+  linkedin: "http://pt.linkedin.com/in/pedromgmendes"
+- name: Miguel Novais
+  image: 
+  desc:
+    - "Co-founder da Match Up e de outras startups, Miguel Novais é, ainda, consultor em marketing e comunicação."
+  linkedin: "http://pt.linkedin.com/in/miguelnovais"
+- name: Paulo Carvalho
+  image: 
+  desc:
+    - "Diretor de Recursos Humanos no grupo DST, Paulo Carvalho começou a sua formação em Psicologia na Universidade do Minho."
+  linkedin: "https://pt.linkedin.com/in/paulolimadecarvalho"
+- name: Cristiane Miranda
+  image: 
+  desc:
+    - "Administradora do Grupo Expoente é formada em Gestão de Empresas pela Universidade do Minho."
+  linkedin: "https://pt.linkedin.com/pub/cristiane-miranda/a2/b70/876"

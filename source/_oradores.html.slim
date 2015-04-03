@@ -17,17 +17,10 @@ section#oradores
                     = image_tag "oradores/#{orador[:image]}"
                   h5 = orador[:name]
                   span = orador[:title]
-                  p = orador[:desc]
+                  - unless orador[:desc].nil?
+                    - orador[:desc].each do |p|
+                      p = p
                   .team_social
-                    - if orador.key?('facebook')
-                      a href="#{orador[:facebook]}" 
-                        i.fa.fa-facebook
-                    - if orador.key?('twitter')
-                      a href="#{orador[:twitter]}" 
-                        i.fa.fa-twitter
-                    - if orador.key?('google')
-                      a href="#{orador[:google]}" 
-                        i.fa.fa-google-plus
                     - if orador.key?('linkedin')
                       a href="#{orador[:linkedin]}" 
                         i.fa.fa-linkedin
