@@ -1,21 +1,32 @@
 /! =========== BEGAIN PRICING SECTION ================
 section#programa
   .container
-    .row.col-lg-12.col-md-12
-      /! START ABOUT HEADING
-      .heading
-        h2.wow.fadeInLeftBig Programa
-    .row.col-lg-12.col-md-12
-      .pricing_area
-        .row
-          - data.programa.each do |dia,eventos|
-            .col-lg-4.col-md-4.col-sm-12.col-xs-12
-              .single_price.wow.fadeInUp
-                h3.price = dia
-                ul.price_features
-                  - eventos.each do |e|
-                    li style="#{'padding-left:1.5em' if e.hora.empty?}"
-                      - unless e.hora.empty?
-                        strong = e.hora + ' | '
-                      = e.evento
+    .row
+      .col-lg-12.col-md-12
+        /! START ABOUT HEADING
+        .heading
+          h2.wow.fadeInLeftBig Programa
+    .row
+      .col-lg-12.col-md-12
+        - data.programa.each do |dia,eventos|
+          - eventos.each do |e|
+            - unless e.modal.nil?
+              = partial 'layouts/modal', locals: {modalname: e.modal.name, m: e.modal}
+        .pricing_area
+          .row
+            - data.programa.each do |dia,eventos|
+              .col-lg-4.col-md-4.col-sm-12.col-xs-12
+                .single_price.wow.fadeInUp
+                  h3.price = dia
+                  ul.price_features
+                    - eventos.each do |e|
+                      li style="#{'padding-left:1.5em' if e.hora.nil?}"
+                        - unless e.hora.nil?
+                          strong = e.hora + ' | '
+                        - unless e.modal.nil?
+                          a href="#" data-toggle="modal" data-target="#modal#{e.modal.name}" style="text-decoration:underline"
+                            = e.evento
+                        - else
+                          = e.evento
 /! =========== END PRICING SECTION ================
+= partial 'oradores'

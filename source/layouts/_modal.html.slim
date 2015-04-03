@@ -1,0 +1,19 @@
+.modal.fade aria-hidden="true" id="modal#{modalname}" aria-labelledby="modal#{modalname}" role="dialog" 
+  .modal-dialog
+    .modal-content
+      .modal-header
+        button.close aria-label="Fechar" data-dismiss="modal" type="button" 
+          span aria-hidden="true" &times;
+        h4.modal-title id="modal#{modalname}"
+          = image_tag 'favicon.png', style: "width: 1.4em; height: 1.4em; margin-right: 1em; margin-left: 1em;"
+          = m.title
+      .modal-body
+        .container-fluid
+          = partial "modals/#{m.partial}"
+      .modal-footer
+        button.btn.btn-default data-dismiss="modal" type="button" Fechar
+    /! /.modal-content
+  /! /.modal-dialog
+/! /.modal
+
+

@@ -1,39 +1,78 @@
 Sexta-feira:
-  - { hora: '14:00', evento: Check-in no Hotel }
-  - { hora: '', evento: Para quem chega mais cedo temos um percurso turístico preparado para mostrar a cidade. }
-  - { hora: '17:00', evento: Welcome Coffee }
-  - { hora: '', evento: Espaço para café e conversa para os participantes e convidados }
-  - { hora: '17:30', evento: Sessão de Abertura }
-  - { hora: '', evento: Cerimónia de boas-vindas a todos os presentes }
-  - { hora: '20:00', evento: Jantar }
-  - { hora: '22:00', evento: Apresentação das candidaturas aos prémios JeniAL }
-  - { hora: '23:00', evento: Diversão Noturna }
+  - hora: '14:00'
+    evento: Check-in no Hotel
+  - evento: Para quem chega mais cedo temos um percurso turístico preparado para mostrar a cidade.
+  - hora: '17:00'
+    evento: Welcome Coffee
+  - evento: Espaço para café e conversa para os participantes e convidados
+  - hora: '17:30'
+    evento: Sessão de Abertura
+    modal:
+      name: SessaoAbertura
+      title: Sessão de Abertura
+      partial: sessao-de-abertura
+  - evento: Cerimónia de boas-vindas a todos os presentes
+  - hora: '20:00'
+    evento: Jantar
+  - evento: Museu D. Diogo de Sousa
+  - hora: '22:00'
+    evento: Apresentação das candidaturas aos JeniAL Awards
+  - evento: Museu D. Diogo de Sousa
+  - hora: '23:00'
+    evento: Diversão Noturna
 Sábado:
-  - { hora: '', evento: Pequeno-almoço no hotel }
-  - { hora: '09:00', evento: Palestra Geral  }
-  - { hora: '10:00', evento: Palestra Geral }
-  - { hora: '11:00', evento: Coffee-break }
-  - { hora: '11:30', evento: Palestra Geral }
-  - { hora: '12:30', evento: Almoço }
-  - { hora: '14:30', evento: 'Workshops:' }
-  - { hora: '', evento: '#1 Júnior Empresa<br>(Vencedor do Concurso)' }
-  - { hora: '', evento: '#2 Júnior Empresa<br>(Vencedor do Concurso)' }
-  - { hora: '', evento: '#3 Startup Braga' }
-  - { hora: '', evento: '#4 Startup Braga' }
-  - { hora: '16:00', evento: Coffee-break }
-  - { hora: '16:30', evento: 'Meetups:' }
-  - { hora: '', evento: Recursos Humanos }
-  - { hora: '', evento: Comunicação e Marketing }
-  - { hora: '', evento: Projetos de Engenharia }
-  - { hora: '', evento: Consultoria }
-  - { hora: '18:00', evento: Tempo livre }
-  - { hora: '20:00', evento: Jantar de Gala }
-  - { hora: '23:00', evento: Festa Insólita }
+  - evento: Pequeno-almoço no hotel
+  - hora: '09:00'
+    evento: Palestras Gerais
+    modal:
+      name: PalestraGeral
+      title: Palestra Geral
+      partial: palestra-geral
+  - evento: Museu D. Diogo de Sousa
+  - hora: '12:30'
+    evento: Almoço
+  - evento: Espaço Expoente
+  - hora: '14:30'
+    evento: 'Workshops'
+    modal:
+      name: Workshops
+      title: Workshops
+      partial: workshops
+  - evento: Espaço Expoente
+  - hora: '16:00'
+    evento: Coffee-break
+  - hora: '16:30'
+    evento: 'Meetups'
+    modal:
+      name: Meetups
+      title: Meetups
+      partial: meetups
+  - evento: Espaço Expoente
+  - hora: '18:00'
+    evento: Apresentação das candidaturas aos JeniAL Awards
+  - evento: Espaço Expoente
+  - hora: '19:00'
+    evento: Tempo livre
+  - hora: '20:30'
+    evento: Jantar de Gala
+  - hora: '23:00'
+    evento: Diversão Noturna
 Domingo:
-  - { hora: '', evento: Pequeno-almoço no hotel }
-  - { hora: '10:30', evento: Case Studies }
-  - { hora: '', evento: Uma série de casos práticos serão apresentados para resolução em grupos.}
-  - { hora: '12:30', evento: Almoço }
-  - { hora: '14:00', evento: Sessão de Encerramento com entrega dos prémios jeniAL }
-  - { hora: '15:30', evento: Despedida }
-  - { hora: '', evento: Quem quiser aproveitar por mais um bocado a cidade de Braga temos visitas guiadas e alguns museus para visitar.}
+  - evento: Pequeno-almoço no hotel
+  - hora: '10:30'
+    evento: Case Studies
+  - evento: Espaço Expoente
+  - evento: Uma série de casos práticos serão apresentados para resolução em grupos.
+  - hora: '12:30'
+    evento: Almoço
+  - hora: '14:00'
+    evento: Sessão de Encerramento
+    modal:
+      name: Encerramento
+      title: Sessão de Encerramento
+      partial: encerramento
+  - evento: Com entrega dos JeniAL Awards
+  - evento: Espaço Expoente
+  - hora: '15:30'
+    evento: Despedida
+  - evento: Quem quiser aproveitar por mais um bocado a cidade de Braga temos visitas guiadas e alguns museus para visitar.
