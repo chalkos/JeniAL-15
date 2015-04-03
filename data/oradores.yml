@@ -1,28 +1,28 @@
 - name: Maria Cunha
-  image: 
+  image: maria-cunha.jpg
   desc: "Formada em Marketing pela Universidade Católica, Maria Cunha é CEO nas Josefinas Portugal."
   linkedin: "http://pt.linkedin.com/in/mariacunhabloom"
 - name: Jorge Ribeiro
-  image: 
+  image: jorge-miguel.jpg
   desc: "Vencedor do Prémio Europeu Sousa Franco 2014, Jorge Ribeiro teve formação em Direito da UE no King’s College London."
   linkedin: "http://pt.linkedin.com/pub/jorge-miguel-ribeiro/58/492/669/en"
 - name: Tiago Sequeira
-  image: 
+  image: tiago-sequeira.jpg
   desc: "Enquanto empreendedor, Tiago Sequeira é responsável pela Startup Braga e o pelo Factory Braga."
   linkedin: "https://pt.linkedin.com/in/tgs1982"
 - name: Pedro Mendes
-  image: 
+  image: pedro-mendes.jpg
   desc: "Com formação na área da computação, Pedro Mendes é Engenheiro de Software na Primavera BSS."
   linkedin: "http://pt.linkedin.com/in/pedromgmendes"
 - name: Miguel Novais
-  image: 
+  image: miguel-novais.jpg
   desc: "Co-founder da Match Up e de outras startups, Miguel Novais é, ainda, consultor em marketing e comunicação."
   linkedin: "http://pt.linkedin.com/in/miguelnovais"
-- name: Paulo Carvalho
-  image: 
-  desc: "Diretor de Recursos Humanos no grupo DST, Paulo Carvalho é formado em Psicologia na Universidade do Minho."
+- name: Paulo Lima de Carvalho
+  image: paulo-carvalho.jpg
+  desc: "Diretor de Recursos Humanos no grupo DST, Paulo Lima de Carvalho é formado em Psicologia na Universidade do Minho."
   linkedin: "https://pt.linkedin.com/in/paulolimadecarvalho"
 - name: Cristiane Miranda
-  image: 
+  image: cristiane-miranda.jpg
   desc: "Administradora do Grupo Expoente é formada em Gestão de Empresas pela Universidade do Minho."
   linkedin: "https://pt.linkedin.com/pub/cristiane-miranda/a2/b70/876"
