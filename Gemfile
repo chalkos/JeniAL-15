@@ -15,3 +15,6 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 # Slim instead of erb
 gem "slim"
+
+# Minify HTML
+gem "middleman-minify-html"
