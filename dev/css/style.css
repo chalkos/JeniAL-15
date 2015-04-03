@@ -818,7 +818,7 @@ div[data-dimension] {
 	width: 100%;
 }
 .team_img > img {
-  border-radius: 100%;
+  border-radius: 20%;
   height: 150px;
   margin: 0 auto 15px;
   width: 150px;
