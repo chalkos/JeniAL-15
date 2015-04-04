@@ -194,7 +194,7 @@ jQuery(function($){
 		  dots: false,
 		  infinite: true,
 		  speed: 300,
-		  play: '5000'
+		  play: '5000',
 		  slidesToShow: 4,
 		  slidesToScroll: 4,
 		  responsive: [
