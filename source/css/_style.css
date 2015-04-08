@@ -644,7 +644,7 @@ div[data-dimension] {
   content: "";
   height: 3px;
   /*left: 40%;*/
-  left: 25%;
+  left: 33.33%;
   position: absolute;
   width: 100px;
 }
@@ -1509,7 +1509,7 @@ textarea .form-control {
   .slider_caption {margin-top: 25%;}
   .subscribe_mail {width: 76%;}
   .subscr_btn {width: 24%;}
-
+  .single_service > .service_title:after {left: 27%;}
 }
   
 @media(max-width:991px ){
@@ -1524,7 +1524,7 @@ textarea .form-control {
   .single_iteam {text-align: center;}
   .single_iteam img {display: inline-block;}
   .single_service .service_title {font-size: 18px;}
-  .single_service > .service_title:after {left: 33%;}
+  .single_service > .service_title:after {left: 42%;}
   .single_price > h3 {line-height: 80px;}
   .single_price .price > h4 {font-size: 50px;line-height: 50px;}
   .price_features li {font-size: 13px;line-height: 15px;}
@@ -1535,7 +1535,6 @@ textarea .form-control {
   .clients_slider .slick-next {right: 45%;}
   .subscr_btn {font-size: 15px;}
   .single_contact_feaured {margin-bottom: 30px;}
-  .single_service > .service_title:after {left: 0%;}
 }
 
 @media(max-width:767px ){
